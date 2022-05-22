@@ -1,4 +1,4 @@
 import React from "react";
-import Todo from "../context/todo";
+import Bike from "../context/bike";
 
-export default () => <div><Todo /></div>
+export default () => <div><Bike /></div>

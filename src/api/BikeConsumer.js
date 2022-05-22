@@ -1,4 +1,4 @@
-import api from "./TodoResource";
+import api from "./BikeResource";
 
 const Consumer = ({
 

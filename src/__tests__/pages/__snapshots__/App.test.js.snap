@@ -4,6 +4,20 @@ exports[`<App /> 1`] = `
 <DocumentFragment>
   <div>
     <div
+      class="row justify-content-center"
+    >
+      <div
+        class="col-md-8"
+      >
+        <h2>
+          Police of departament of Berlin
+        </h2>
+        <h4>
+          Stolen bykes
+        </h4>
+      </div>
+    </div>
+    <div
       class="row"
     >
       <div
@@ -15,8 +29,22 @@ exports[`<App /> 1`] = `
         >
           <input
             class="form-control"
-            data-testid="input-data"
-            placeholder="Enter new todo"
+            data-testid="input-data-title"
+            placeholder="Title"
+            value=""
+          />
+          <input
+            class="form-control"
+            data-testid="input-data-from"
+            placeholder="From"
+            type="date"
+            value=""
+          />
+          <input
+            class="form-control"
+            data-testid="input-data-to"
+            placeholder="From"
+            type="date"
             value=""
           />
           <div
@@ -24,9 +52,9 @@ exports[`<App /> 1`] = `
           >
             <button
               class="btn btn-primary"
-              data-testid="btn-add"
+              data-testid="btn-clear"
             >
-              Add
+              Clear
             </button>
           </div>
         </div>

@@ -11,7 +11,7 @@ export default {
     getAll: () => fetch(`${API_URL}/api/v3/search`)
         .then(response => response.json()),
 
-    post: (todo) => fetch(`${API_URL}/api/v1/tasks`, {
+    post: (todo) => fetch(`${API_URL}/api/v1/`, {
         method: 'post',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(todo)
